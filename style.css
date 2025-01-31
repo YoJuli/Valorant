@@ -1,0 +1,282 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(180deg, rgb(0, 0, 0), rgb(42, 42, 78), rgb(66, 66, 160));
+    color: #f1f1f1;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+footer {
+    background: linear-gradient(180deg, rgb(18, 18, 31),rgb(66, 66, 160), rgb(12, 12, 39));
+    padding: 20px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+.back-button {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    background-color: #e6e600;
+    color: black;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.back-button:hover {
+    background-color: #b3b300;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.modes-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.mode-card {
+    background: linear-gradient(180deg, rgb(31, 30, 30), rgb(51, 49, 49));
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.mode-card:hover {
+    transform: translateY(-10px);
+}
+
+.mode-card .info {
+    padding: 15px;
+}
+
+.mode-card h2 {
+    margin: 0 0 10px;
+    font-size: 1.5rem;
+    color: #e6e600;
+}
+
+.mode-card p {
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.buttons a {
+    background-color: #e60000;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.buttons a:hover {
+    background-color: #b30000;
+}
+
+.maps-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.map-card {
+    background: linear-gradient(180deg, rgb(31, 30, 30), rgb(51, 49, 49));
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.map-card:hover {
+    transform: translateY(-10px);
+}
+
+.map-card img {
+    width: 100%;
+    height: auto;
+}
+
+.map-card .info {
+    padding: 15px;
+}
+
+.map-card h2 {
+    margin: 0 0 10px;
+    font-size: 1.5rem;
+    color: #e6e600;
+}
+
+.map-card p {
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.back-button {
+    background-color: #ff5c57;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    display: block;
+    width: 100px;
+    margin: 10px auto;
+    font-size: 16px;
+}
+
+.back-button:hover {
+    background-color: #e14a41;
+}
+
+.agents-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.agent-card {
+    background: linear-gradient(180deg, rgb(31, 30, 30), rgb(51, 49, 49));
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.agent-card:hover {
+    transform: translateY(-10px);
+}
+
+.agent-card img {
+    width: 100%;
+    height: auto;
+}
+
+.agent-card .info {
+    padding: 15px;
+}
+
+.agent-card h2 {
+    margin: 0 0 10px;
+    font-size: 1.5rem;
+    color: #e6e600;
+}
+
+.agent-card p {
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.weapons-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.weapon-card {
+    background: linear-gradient(180deg, rgb(31, 30, 30), rgb(51, 49, 49));
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.weapon-card:hover {
+    transform: translateY(-10px);
+}
+
+.weapon-card img {
+    width: 100%;
+    height: auto;
+}
+
+.weapon-card .info {
+    padding: 15px;
+}
+
+.weapon-card h2 {
+    margin: 0 0 10px;
+    font-size: 1.5rem;
+    color: #e6e600;
+}
+
+.weapon-card p {
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.ability {
+    background: linear-gradient(180deg, rgb(31, 30, 30), rgb(51, 49, 49));
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+}
+.ability h2 {
+    margin: 0;
+    font-size: 22px;
+    color: #ff5c57;
+}
+
+.ability p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.ability .description {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #ccc;
+}
+
+.ability-icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.ability-info {
+    display: flex;
+    align-items: center;
+}
+
+#background-video {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
