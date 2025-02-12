@@ -18,9 +18,9 @@ header {
 footer {
     background: linear-gradient(180deg, rgb(18, 18, 31),rgb(66, 66, 160), rgb(12, 12, 39));
     padding: 20px;
-    position: fixed;
     bottom: 0px;
     width: 100%;
+    text-align: center;
 }
 .back-button {
     position: absolute;
@@ -279,4 +279,15 @@ h1 {
     min-width: 100%;
     min-height: 100%;
     z-index: -1;
+}
+
+details > summary {
+    padding: auto;
+    width: 250px;
+    background-color: black;   
+    border: 1px solid #bbbbbb;
+    box-shadow: 1px 1px 2px black;
+    cursor: pointer;
+    font-size: 1.2rem;
+    text-align: center;
 }
